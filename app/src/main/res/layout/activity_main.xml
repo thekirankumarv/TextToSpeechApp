@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Text"
+        android:layout_width="312dp"
+        android:layout_height="86dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:layout_marginBottom="456dp"
+        android:background="#00BCD4"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:hint="Enter any Sentence"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="165dp"
+        android:layout_marginRight="165dp"
+        android:layout_marginBottom="331dp"
+        android:onClick="convertPressed"
+        android:text="Speak"
+        app:backgroundTint="#3F51B5" />
+</RelativeLayout>
